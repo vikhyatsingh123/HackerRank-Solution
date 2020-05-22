@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+	
+    int n,a,b,c,d,e,f,g,h,sum;
+    scanf("%d", &n);
+    a=n%10;
+    b=n%100;
+    c=(b-a)/10;
+    d=n%1000;
+    e=(d-b)/100;
+    f=n%10000;
+    g=(f-d)/1000;
+    h=n/10000;
+    sum=a+c+e+g+h;
+    printf("%d",sum);
+    return 0;
+}
+
