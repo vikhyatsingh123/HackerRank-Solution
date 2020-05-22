@@ -1,12 +1,9 @@
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
-//Complete the following function.
+#include<math.h>
 
 
 void calculate_the_maximum(int n, int k) {
-  //Write your code here.
+ 
      int maxAnd = 0;
     int maxOr = 0;
     int maxXor = 0;
