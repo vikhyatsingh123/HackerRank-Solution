@@ -1,12 +1,12 @@
-You are given an array of integers, , denoting the marks scored by students in a class.
+You are given an array of integers,marks, denoting the marks scored by students in a class.
 
-The alternating elements , ,  and so on denote the marks of boys.
-Similarly, , ,  and so on denote the marks of girls.
+The alternating elements ,marks0,marks2,marks4,  and so on denote the marks of boys.
+Similarly,marks1,marks3,marks5 and so on denote the marks of girls.
 The array name, , works as a pointer which stores the base address of that array. In other words,  contains the address where  is stored in the memory.
 
 For example, let  and  stores 0x7fff9575c05f. Then, 0x7fff9575c05f is the memory address of .
 
-image
+imag
 
 Complete the function, marks_summation(int* marks, char gender, int number_of_students) which returns the total sum of:
 
@@ -19,10 +19,7 @@ Input Format
 The first line contains , denoting the number of students in the class, hence the number of elements in .
 Each of the  subsequent lines contains .
 The next line contains .
-Constraints
 
- (where )
- =  or 
 Output Format
 
 The output should contain the sum of all the aternate elements in  as explained above.
@@ -34,6 +31,7 @@ Sample Input 0
 2
 5
 b
+
 Sample Output 0
 
 8
